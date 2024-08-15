@@ -35,9 +35,12 @@ h2{
 }
 
 .canciones{
-    color: white;
-    
+    color:rgb(120, 82, 82);
+    padding-left: 0%;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 600;
 }
+
 
 .album{
     text-decoration: none;
@@ -54,3 +57,17 @@ h2{
     position:sticky;
     left: 1300px;
 }
+
+div{
+    background-color: gainsboro;
+    border: 10px solid ;
+    border-color:  rgb(57, 57, 57);
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 20px;
+    height: 40%;
+    width: 40%;
+}
+
+
