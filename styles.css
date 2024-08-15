@@ -1,9 +1,10 @@
 .playlist{
     font-family:monospace;
-    text-align:right;
+    text-align:left;
     font-weight: 700;
     letter-spacing: 3px;
-    color:white
+    color:white;
+    padding-left: 0.75%;
 }
 
 h1{
@@ -46,8 +47,10 @@ h2{
     text-decoration: none;
     color: rgb(57, 57, 57);
     text-decoration: none;
-
+    font-family: "Teko", sans-serif;
+    font-style: normal;
 }
+
 
 .invisible{
     color: black;
@@ -55,10 +58,9 @@ h2{
 
 .link-playlist{
     position:sticky;
-    left: 1300px;
 }
 
-div{
+.contenedor-del-top{
     background-color: gainsboro;
     border: 10px solid ;
     border-color:  rgb(57, 57, 57);
@@ -68,6 +70,28 @@ div{
     padding: 20px;
     height: 40%;
     width: 40%;
+    margin-left: 25%;
 }
+
+.imagen-css{
+    margin-left: 82%;
+    width: 50px;
+}
+
+.imagen-html{
+    margin-top: 4%;
+    margin-left: 1%;
+    width: 50px;
+}
+
+.div-final-de-pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
 
 
